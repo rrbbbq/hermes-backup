@@ -1,0 +1,14 @@
+:root { color-scheme: light; font-family: system-ui, sans-serif; color: #202e3c; background: #f8fafb; line-height: 1.65; }
+body { max-width: 760px; margin: auto; padding: 0 24px; }
+header { padding: 24px 0; border-bottom: 1px solid #d6dfe6; }
+nav { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 16px; }
+a { color: #185c8c; text-underline-offset: .2em; }
+a:focus-visible { outline: 3px solid #185c8c; outline-offset: 4px; }
+nav a[aria-current="page"] { font-weight: 700; }
+main { padding: 40px 0; }
+.eyebrow { color: #516579; font-size: .85rem; letter-spacing: .04em; }
+h1 { font-size: clamp(2rem, 6vw, 3rem); line-height: 1.15; margin: .4em 0 .6em; }
+h2 { font-size: 1.15rem; margin-top: 2em; }
+.intro { font-size: 1.2rem; color: #435669; }
+code { font-size: .9em; overflow-wrap: anywhere; }
+footer { padding: 24px 0 40px; border-top: 1px solid #d6dfe6; color: #516579; font-size: .9rem; }

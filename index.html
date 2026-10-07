@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Hermes Backup is a personal, non-commercial rclone tool for encrypted Google Drive backups.">
+  <title>Hermes Backup</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header><nav aria-label="Main"><a href="./" aria-current="page">Hermes Backup</a><a href="privacy.html">Privacy policy</a></nav></header>
+  <main>
+    <p class="eyebrow">Personal · Non-commercial</p>
+    <h1>Hermes Backup</h1>
+    <p class="intro">Encrypted backups for a personal Hermes VPS, stored in the owner's Google Drive using rclone.</p>
+    <h2>Purpose</h2>
+    <p>Hermes Backup is a private backup and recovery tool operated by its owner for their own Google account. It stores encrypted backup archives and checksum files, and supports restoring those backups. It is not a public service and does not accept sign-ups.</p>
+    <h2>Google Drive access</h2>
+    <p>The app requests only the <code>https://www.googleapis.com/auth/drive.file</code> permission. In this rclone setup, it creates and manages its own backup files and folders: uploading, listing, downloading, updating, and deleting them as needed for backup and recovery. It does not request access to all files in Google Drive.</p>
+    <h2>Your data</h2>
+    <p>Backup data is used only for the owner's backup and recovery. It is not sold, used for advertising, or shared with unrelated parties. This informational website does not handle Google sign-in, OAuth tokens, or backup files.</p>
+    <p><a href="privacy.html">Read the privacy policy →</a></p>
+  </main>
+  <footer>Operated by <a href="https://github.com/rrbbbq">rrbbbq</a> · <a href="https://github.com/rrbbbq/hermes-backup/issues">Contact the maintainer</a></footer>
+</body>
+</html>
